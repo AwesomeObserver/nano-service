@@ -1,0 +1,4 @@
+package: github.com/AwesomeObserver/nano-service
+import:
+- package: github.com/gorilla/mux
+  version: v1.6.1

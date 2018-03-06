@@ -1,0 +1,6 @@
+hash: ba7c18058283821e1ff21ad685e38d840d6d1b52b5368333bede2b2f0df09003
+updated: 2018-03-04T20:57:07.3817336+03:00
+imports:
+- name: github.com/gorilla/mux
+  version: 53c1911da2b537f792e7cafcb446b05ffe33b996
+testImports: []
