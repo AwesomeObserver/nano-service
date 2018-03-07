@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+//Build struct include a information for build
 type Build struct {
 	BuildTime string `json:"buildTime"`
 	Commit    string `json:"commit"`
