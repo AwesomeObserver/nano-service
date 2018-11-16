@@ -1,13 +1,13 @@
-APP?=nano-service
-PORT?=8080
+APP ?= nano-service
+PORT ?= 8080
 
-RELEASE?=0.0.1
-COMMIT?=$(shell git rev-parse --short HEAD)
-BUILD_TIME?=$(shell date -u '+%Y-%m-%d_%H:%M:%S')
-CONTAINER_IMAGE?=docker.io/ded0k/${APP}
+RELEASE ?= 0.0.1
+COMMIT ?= $(shell git rev-parse --short HEAD)
+BUILD_TIME ?= $(shell date -u '+%Y-%m-%d_%H:%M:%S')
+CONTAINER_IMAGE ?= docker.io/ded0k/${APP}
 
-GOOS?=linux
-GOARCH?=amd64
+GOOS ?= linux
+GOARCH ?= amd64
 
 .PHONY: clean
 clean:
